@@ -1,0 +1,33 @@
+<?php
+
+namespace App\Http\Controllers;
+
+use Illuminate\Http\Request;
+
+class pintores extends Controller
+{
+    public function principal(){
+        return view('prinipal');
+    }
+
+    public function index(){
+        return view('diegorivera');
+    }
+
+    public function dos(){
+        return view('vincent');
+    }
+
+    public function tres(){
+        return view('edvard');
+    }
+
+    public function cuatro(){
+        return view('leonardo');
+    }
+
+    public function cinco(){
+        return view('pablo');
+    }
+}
+
